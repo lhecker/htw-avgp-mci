@@ -140,7 +140,7 @@ void MainDialog::OnBnClickedOpenVideo() {
 }
 
 void MainDialog::OnBnClickedPause() {
-	if (!current_audiofile && !current_videofile) {
+	if (!current_audiofile && !current_videofile && !current_audiocd) {
 		return;
 	}
 
